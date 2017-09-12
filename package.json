@@ -1,14 +1,18 @@
 {
-  "name": "zrn-utils",
-  "version": "1.0.0",
-  "description": "zrn的npm测试学习发布",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "测试学习npm"
-  ],
-  "author": "zhangrn",
-  "license": "ISC"
+    "name": "zrn-utils",
+    "version": "1.0.1",
+    "description": "zrn的js util函数库",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zhangruinian/zrn-utils"
+    },
+    "keywords": [
+        "js util函数库"
+    ],
+    "author": "zhangrn",
+    "license": "ISC"
 }

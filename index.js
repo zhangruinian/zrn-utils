@@ -1,13 +1,15 @@
-fn1 = function () {
-    console.log('我是fn1')
+
+let sumArr = function (arr) {
+    return arr.reduce(function(pre,cur){return pre+cur})
 }
-fn2 = function () {
-    console.log('我是fn2')
+
+let covArr = function (arr) {
+    return sumArr(arr) / arr.length;
 }
 
 const utils = {
-    fn1,
-    fn2
+    sumArr,
+    covArr
 }
 
 module.exports = utils
