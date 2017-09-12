@@ -1,0 +1,14 @@
+{
+  "name": "zrn-utils",
+  "version": "1.0.0",
+  "description": "zrn的npm测试学习发布",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "测试学习npm"
+  ],
+  "author": "zhangrn",
+  "license": "ISC"
+}
