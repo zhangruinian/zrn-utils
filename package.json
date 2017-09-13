@@ -1,6 +1,6 @@
 {
     "name": "zrn-utils",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "zrn的js util函数库",
     "main": "index.js",
     "scripts": {
@@ -14,5 +14,5 @@
         "js util函数库"
     ],
     "author": "zhangrn",
-    "license": "ISC"
+    "license": "MIT"
 }
