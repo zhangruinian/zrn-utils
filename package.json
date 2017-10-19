@@ -1,18 +1,21 @@
 {
-    "name": "zrn-utils",
-    "version": "1.0.2",
-    "description": "zrn的js util函数库",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/zhangruinian/zrn-utils"
-    },
-    "keywords": [
-        "js util函数库"
-    ],
-    "author": "zhangrn",
-    "license": "MIT"
+  "name": "zrn-utils",
+  "version": "1.0.3",
+  "description": "zrn的js util函数库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangruinian/zrn-utils"
+  },
+  "keywords": [
+    "js util函数库"
+  ],
+  "author": "zhangrn",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.2"
+  }
 }

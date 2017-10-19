@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mocha.css"/>
+</head>
+<body>
+<div id="mocha"></div>
+<script src="mocha.js"></script>
+<!--加入断言库-->
+<!--<script src="http://chaijs.com/chai.js"></script>-->
+<script src="chai.js"></script>
+<script src="../index.js"></script>
+<script>mocha.setup('bdd')</script>
+<script src="tests.js"></script>
+<script>
+    mocha.run()
+    // 写测试的重要性不言而喻.
+
+    // 立即执行函数 前面不加;的话 会引起上面的报错
+
+    //  以 “（”、“[”、“/”、“+”、或 “-” 开始，那么它极有可能和前一条语句合在一起解释。 《JavaScript 权威指南》
+    // 导致压缩测试时候,IIFE单个文件可以tongguo,但是多个文件就会导致解析报错
+
+    /* jsonp测试 */
+    ;(function () {
+        // 淘宝商品搜索建议:
+        var apiUrl = 'http://suggest.taobao.com/sug'
+
+        jsonp({
+            url: apiUrl,
+            data: {
+                code: 'utf-8',
+                q: '卫衣'
+            },
+            callback: 'callback',
+            success: handle
+        })
+        //   https://suggest.taobao.com/sug?code=utf-8&q=%E5%8D%AB%E8%A1%A3&callback=jsonp_1508394302203
+        function handle (json) {
+            console.log(json)
+        }
+    })()
+
+</script>
+</body>
+</html>
