@@ -1,6 +1,6 @@
 {
   "name": "zrn-utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "zrn的js util函数库",
   "main": "index.js",
   "scripts": {

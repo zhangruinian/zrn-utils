@@ -60,9 +60,10 @@ const  formatParams = function(data) {
     return arr.join('&');
 }
 
-// jsonp 可增加用promise写的版本 方便then链式调用. 对象传参方便以后扩展
-const jsonp = function (options = {}) {
-    if (!options.url || !options.callback){
+// jsonp 可增加用promise写的版本 方便then链式调用. 对象传参方便以后扩展 可使用es6语法 结构赋值 简洁
+
+const jsonp = function (options = { }) {
+    if (!options.url ){
         throw new Error('jsonp参数违规')
     }
     let callbackName = 'jsonp_' + Date.now()
@@ -88,6 +89,49 @@ const jsonp = function (options = {}) {
     script.src = options.url + (options.url.indexOf('?') === -1 ? '?' : '&') + params
 }
 
+const jsonpPromise =  (options = {}) => {
+    if (!options.url || !options.callback){
+        throw new Error('jsonp参数违规')
+    }
+    return new Promise((resolve, reject) =>{
+        let callbackName = 'jsonp_' + Date.now()
+        let head = document.getElementsByTagName('head')[0]
+        let script = document.createElement('script')
+        let params = ''
+
+        if(options.data){
+            options.data[options.callback] = callbackName;
+            params += formatParams(options.data);
+        }else{
+            params += options.callback+ "=" +callbackName;
+        }
+        head.appendChild(script)
+        // 加入resolve的时机比较重要
+        window[callbackName] =  (res) => {
+            // 进行垃圾回收等
+            head.removeChild(script)
+            window[callbackName] = null
+            resolve(res)
+        }
+        script.onerror = () => {
+            reject(new Error(`网络错误`))
+        }
+        // 此时params已经包括回调函数,若不包括下面需要手动写上
+        script.src = options.url + (options.url.indexOf('?') === -1 ? '?' : '&') + params
+    })
+
+}
+
+const elementInViewport = function (element) {
+    var rect = element.getBoundingClientRect();
+    var html = document.documentElement;
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || html.clientHeight) &&
+        rect.right <= (window.innerWidth || html.clientWidth)
+    )
+}
 const utils = {
     sumArr,
     covArr,
@@ -96,7 +140,9 @@ const utils = {
     removeCookie,
     loadScript,
     formatParams,
-    jsonp
+    jsonp,
+    jsonpPromise,
+    elementInViewport
 }
 
 module.exports = utils
