@@ -35,7 +35,7 @@ const removeCookie = function (name){
 const loadScript = function (url, callback) {
     let script = document.createElement('script')
     script.src = url
-    document.getElementsByName('head')[0].appendChild(script)
+    document.getElementsByTagName('head')[0].appendChild(script)
 
     if(script.readyState){
         script.onreadystatechange = function() {
@@ -58,6 +58,12 @@ const  formatParams = function(data) {
         arr.push(encodeURIComponent(name) + '=' + encodeURIComponent(data[name]));
     }
     return arr.join('&');
+    // 另外一种写法
+    /*var arr = []
+    params = data || {}
+    Object.keys(params).forEach(function (key) {
+        arr.push(key + '=' + params[key])
+    })*/
 }
 
 // jsonp 可增加用promise写的版本 方便then链式调用. 对象传参方便以后扩展 可使用es6语法 结构赋值 简洁
