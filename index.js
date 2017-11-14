@@ -65,6 +65,43 @@ const  formatParams = function(data) {
         arr.push(key + '=' + params[key])
     })*/
 }
+/**
+ * 将url查询参数转换为字典对象
+ * @param {string} url
+ * @returns {{object}}
+ */
+const parseQueryObject = function (url) {
+    var obj = {};
+    var key = "",
+        value = "";
+    // 截取最后一个问号之后的
+    var queryArr = url.slice(url.lastIndexOf("?") + 1).split("&");
+    queryArr.forEach((query) => {
+        key = decodeURIComponent(query.split('=')[0])
+        value = decodeURIComponent(query.split('=')[1])
+        obj[key] = value
+    })
+    return obj;
+}
+/**
+ * 获取url查询参数(单个)
+ * @param {string} url
+ * @param {string} name
+ * @returns {string}
+ */
+const getQueryString = function (url, name) {
+    var key = "",
+        value = "";
+    // 截取最后一个问号之后的
+    var queryArr = url.slice(url.lastIndexOf("?") + 1).split("&");
+    queryArr.forEach((query) => {
+        key = decodeURIComponent(query.split('=')[0])
+        if(key === name){
+            value = decodeURIComponent(query.split('=')[1])
+        }
+    })
+    return value
+}
 
 // jsonp 可增加用promise写的版本 方便then链式调用. 对象传参方便以后扩展 可使用es6语法 结构赋值 简洁
 
@@ -145,6 +182,8 @@ const utils = {
     setCookie,
     removeCookie,
     loadScript,
+    parseQueryObject,
+    getQueryString,
     formatParams,
     jsonp,
     jsonpPromise,
