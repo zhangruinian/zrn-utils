@@ -60,6 +60,11 @@
             console.log(res.result)
         })
     })()
+
+    var getEevent = function (event) {
+        console.log(event)
+    }
+    window.onresize = debounce(getEevent, 300)
 </script>
 </body>
 </html>
