@@ -1,6 +1,8 @@
 // Arr
 const sumArr = function (arr) {
-    return arr.reduce(function (pre, cur) {return pre + cur})
+    return arr.reduce(function (pre, cur) {
+        return pre + cur
+    })
 }
 
 const covArr = function (arr) {
@@ -174,23 +176,91 @@ const elementInViewport = function (element) {
         rect.right <= (window.innerWidth || html.clientWidth)
     )
 }
+/**
+ * 函数防抖/多少ms之后执行 没有加入立即执行
+ * @param {Function}func
+ * @param {number} wait
+ * @param {boolean} 是否立刻执行
+ * @returns {Function}
+ */
+const debounce = function (func, wait, immediate) {
 
-const debounce = function (func, wait) {
-    var timeout
-    return function () {
-        // 解决this指向问题
-        var context = this
-        // 解决event对象参数问题
-        var args = arguments
-        if (timeout) {
-            clearTimeout(timeout)
+    var timeout, result;
+
+    var debounced = function () {
+        var context = this;
+        var args = arguments;
+
+        if (timeout) clearTimeout(timeout);
+        if (immediate) {
+            // 如果已经执行过，不再执行
+            var callNow = !timeout;
+            timeout = setTimeout(function(){
+                timeout = null;
+            }, wait)
+            if (callNow) result = func.apply(context, args)
         }
-        timeout = setTimeout(function () {
-            func.apply(context, args)
-        }, wait)
-    }
-}
+        else {
+            timeout = setTimeout(function(){
+                func.apply(context, args)
+            }, wait);
+        }
+        return result;
+    };
 
+    debounced.cancel = function() {
+        clearTimeout(timeout);
+        timeout = null;
+    };
+
+    return debounced;
+}
+/**
+ *
+ * @param func
+ * @param wait
+ * @param {object} options leading trailing 默认为true 只可一次加一个为false
+ * @returns {throttled}
+ */
+const throttle = function (func, wait, options) {
+    var timeout, context, args
+    var previous = 0
+    if (!options) options = {}
+
+    var later = function () {
+        previous = options.leading === false ? 0 : new Date().getTime()
+        timeout = null
+        func.apply(context, args)
+        if (!timeout) context = args = null
+    }
+
+    var throttled = function () {
+        var now = new Date().getTime()
+        if (!previous && options.leading === false) previous = now
+        var remaining = wait - (now - previous)
+        context = this
+        args = arguments
+        if (remaining <= 0 || remaining > wait) {
+            if (timeout) {
+                clearTimeout(timeout)
+                timeout = null
+            }
+            previous = now
+            func.apply(context, args)
+            if (!timeout) context = args = null
+        } else if (!timeout && options.trailing !== false) {
+            timeout = setTimeout(later, remaining)
+        }
+    }
+    // 加入取消
+    throttled.cancel = function () {
+        clearTimeout(timeout)
+        previous = 0
+        timeout = null
+    }
+
+    return throttled
+}
 const utils = {
     sumArr,
     covArr,
