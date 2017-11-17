@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>111</div>
+    <script>
+        var xhr = new XMLHttpRequest()
+        xhr.onreadystatechange = function () {
+            if((xhr.readyState == 4)){
+                // 304表示请求资源没修改,可以直接使用缓存
+                if(xhr.status >= 200 && xhr.status < 300 || xhr.status == 304){
+                    console.log(xhr.responseText)
+                }
+            }
+        }
+        xhr.open('/user')
+        xhr.send(null)
+
+    </script>
+</body>
+</html>
