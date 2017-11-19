@@ -12,11 +12,12 @@
             if((xhr.readyState == 4)){
                 // 304表示请求资源没修改,可以直接使用缓存
                 if(xhr.status >= 200 && xhr.status < 300 || xhr.status == 304){
-                    console.log(xhr.responseText)
+                    // parse之后是json对象 之前是json字符串
+                    console.log(JSON.parse(xhr.responseText))
                 }
             }
         }
-        xhr.open('/user')
+        xhr.open('get','/user')
         xhr.send(null)
 
     </script>
