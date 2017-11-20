@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0031e35-3c35-4b8e-9927-a5c6909aa7ff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,127 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="emptyObject.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/类型判断/emptyObject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="window对象判断.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/类型判断/window对象判断.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dom元素.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/类型判断/dom元素.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ajax封装/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="第一版-时间戳.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/函数节流-throttle-参考underscore/第一版-时间戳.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="partial.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数组扁平化-flatten/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="430">
-                <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-                <folding>
-                  <marker date="1511142604375" expanded="true" signature="295:620" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="378:591" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="419:512" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="530:581" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="794:939" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="842:928" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="1222:1402" ph="{...}" />
-                  <marker date="1511142604375" expanded="true" signature="1323:1371" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hash键值对.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/数组去重/hash键值对.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/函数之函数组合-compose/README.md">
+        <entry file="file://$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+              <first_editor relative-caret-position="209">
+                <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="36" />
                 <folding>
-                  <marker date="1511160598478" expanded="true" signature="269:306" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="376:451" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="405:444" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="599:852" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="682:849" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="945:1358" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="977:1012" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="1048:1081" ph="{...}" />
-                  <marker date="1511160598478" expanded="true" signature="1167:1352" ph="/*...*/" />
+                  <marker date="1511167759134" expanded="true" signature="183:226" ph="//..." />
+                  <marker date="1511167759134" expanded="true" signature="251:589" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="314:583" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="430:479" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="497:573" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="642:672" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="786:822" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="935:963" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="1162:1194" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="1423:1906" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="1460:1827" ph="{...}" />
+                  <marker date="1511167759134" expanded="true" signature="1705:1782" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ajax封装/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -220,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/函数之函数组合-compose/README.md" />
+        <option value="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" />
+        <option value="$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md" />
       </list>
     </option>
   </component>
@@ -273,30 +176,6 @@
               <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js函数之偏函数-partial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="函数之函数组合-compose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="数组去重" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="数组扁平化-flatten" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -390,12 +269,12 @@
       <workItem from="1509955797482" duration="155000" />
       <workItem from="1510627800257" duration="4480000" />
       <workItem from="1510920449150" duration="469000" />
-      <workItem from="1511158255927" duration="2722000" />
+      <workItem from="1511158255927" duration="8171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129760000" />
+    <option name="totallyTimeSpent" value="135209000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +296,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.265506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.265506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -469,22 +348,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -731,7 +594,7 @@
         <state relative-caret-position="0">
           <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/类型判断/window对象判断.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
+        <state relative-caret-position="0">
           <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
         </state>
@@ -754,7 +617,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/类型判断/dom元素.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="0">
           <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding />
         </state>
@@ -795,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ajax封装/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="0">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
@@ -803,7 +666,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/函数节流-throttle-参考underscore/第一版-时间戳.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="0">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding />
         </state>
@@ -822,16 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/数组去重/hash键值对.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="-8">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -839,8 +694,8 @@
     <entry file="file://$PROJECT_DIR$/src/数组扁平化-flatten/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="430">
-            <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <first_editor relative-caret-position="289">
+            <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             <folding>
               <marker date="1511142604375" expanded="true" signature="295:620" ph="{...}" />
               <marker date="1511142604375" expanded="true" signature="378:591" ph="{...}" />
@@ -853,6 +708,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,8 +738,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="57" column="73" lean-forward="true" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+          <first_editor relative-caret-position="186">
+            <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
             <folding>
               <marker date="1511160598478" expanded="true" signature="269:306" ph="{...}" />
               <marker date="1511160598478" expanded="true" signature="376:451" ph="{...}" />
@@ -887,6 +750,47 @@
               <marker date="1511160598478" expanded="true" signature="977:1012" ph="{...}" />
               <marker date="1511160598478" expanded="true" signature="1048:1081" ph="{...}" />
               <marker date="1511160598478" expanded="true" signature="1167:1352" ph="/*...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组乱序-shuffle/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="117">
+            <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <folding>
+              <marker date="1511164283154" expanded="true" signature="84:119" ph="{...}" />
+              <marker date="1511164283154" expanded="true" signature="284:538" ph="{...}" />
+              <marker date="1511164283154" expanded="true" signature="379:514" ph="{...}" />
+              <marker date="1511164283154" expanded="true" signature="649:805" ph="{...}" />
+              <marker date="1511164283154" expanded="true" signature="690:789" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="36" />
+            <folding>
+              <marker date="1511167759134" expanded="true" signature="183:226" ph="//..." />
+              <marker date="1511167759134" expanded="true" signature="251:589" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="314:583" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="430:479" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="497:573" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="642:672" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="786:822" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="935:963" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="1162:1194" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="1423:1906" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="1460:1827" ph="{...}" />
+              <marker date="1511167759134" expanded="true" signature="1705:1782" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
