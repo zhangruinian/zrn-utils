@@ -40,3 +40,13 @@ function shuffle(a) {
 }
 ```
 
+## random order
+```js
+    function shuffle(array) {
+      var random = array.map(Math.random);
+      array.sort(function(a, b) {
+        return random[a] - random[b];
+      });
+    }
+```
+> [一个直观各种乱序算法网址](https://bost.ocks.org/mike/shuffle/compare.html)

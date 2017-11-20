@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0031e35-3c35-4b8e-9927-a5c6909aa7ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md" afterPath="$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" afterPath="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,12 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="232">
-                <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+              <first_editor relative-caret-position="-182">
+                <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
                 <folding>
                   <marker date="1511168743380" expanded="true" signature="183:226" ph="//..." />
                   <marker date="1511168743380" expanded="true" signature="252:590" ph="{...}" />
@@ -51,6 +51,27 @@
                   <marker date="1511168743380" expanded="true" signature="2015:2497" ph="{...}" />
                   <marker date="1511168743380" expanded="true" signature="2052:2418" ph="{...}" />
                   <marker date="1511168743380" expanded="true" signature="2296:2373" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/数组乱序-shuffle/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="394">
+                <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+                <folding>
+                  <marker date="1511169248580" expanded="true" signature="84:119" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="284:538" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="379:514" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="649:805" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="690:789" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="861:993" ph="{...}" />
+                  <marker date="1511169248580" expanded="true" signature="938:985" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -125,8 +146,8 @@
         <option value="$PROJECT_DIR$/src/js函数之偏函数-partial/partial.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/函数之函数组合-compose/README.md" />
-        <option value="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" />
         <option value="$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md" />
+        <option value="$PROJECT_DIR$/src/数组乱序-shuffle/README.md" />
       </list>
     </option>
   </component>
@@ -180,6 +201,12 @@
               <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
               <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zrn-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="数组乱序-shuffle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zrn-utils" type="b2602c69:ProjectViewProjectNode" />
@@ -273,12 +300,12 @@
       <workItem from="1509955797482" duration="155000" />
       <workItem from="1510627800257" duration="4480000" />
       <workItem from="1510920449150" duration="469000" />
-      <workItem from="1511158255927" duration="9155000" />
+      <workItem from="1511158255927" duration="10747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136193000" />
+    <option name="totallyTimeSpent" value="137785000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,28 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/数组乱序-shuffle/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="117">
-            <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-            <folding>
-              <marker date="1511164283154" expanded="true" signature="84:119" ph="{...}" />
-              <marker date="1511164283154" expanded="true" signature="284:538" ph="{...}" />
-              <marker date="1511164283154" expanded="true" signature="379:514" ph="{...}" />
-              <marker date="1511164283154" expanded="true" signature="649:805" ph="{...}" />
-              <marker date="1511164283154" expanded="true" signature="690:789" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/函数之记忆函数-memorize/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="232">
-            <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <first_editor relative-caret-position="-182">
+            <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             <folding>
               <marker date="1511168743380" expanded="true" signature="183:226" ph="//..." />
               <marker date="1511168743380" expanded="true" signature="252:590" ph="{...}" />
@@ -800,6 +810,25 @@
               <marker date="1511168743380" expanded="true" signature="2015:2497" ph="{...}" />
               <marker date="1511168743380" expanded="true" signature="2052:2418" ph="{...}" />
               <marker date="1511168743380" expanded="true" signature="2296:2373" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/数组乱序-shuffle/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="394">
+            <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <folding>
+              <marker date="1511169248580" expanded="true" signature="84:119" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="284:538" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="379:514" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="649:805" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="690:789" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="861:993" ph="{...}" />
+              <marker date="1511169248580" expanded="true" signature="938:985" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
