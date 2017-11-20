@@ -9,7 +9,7 @@
 ```js
     // 第一版 (来自《JavaScript权威指南》)
     // 闭包很实用很常见
-    function memoize(f) {
+    function memorize(f) {
         var cache = {};// 将结果保存在闭包内
         return function(){
             var key = arguments.length + Array.prototype.join.call(arguments, ",");
@@ -22,6 +22,27 @@
         }
     }
 ```
+JSON.stringify对类数组对象之后变为对象,并不是数组字符串
+## 改进权威指南的key
+```js
+    function memorize(f) {
+            var cache = {};// 将结果保存在闭包内
+            return function(...res){
+                // 也可以这样
+                /*
+                 var key = JSON.stringify(Array.prototype.slice.call(arguments))
+                 */
+                var key = res.length + JSON.stringify(res)
+                if (key in cache) {
+                    return cache[key]
+                }
+                else {
+                    return cache[key] = f.apply(this, arguments)
+                }
+            }
+        }
+```
+
 ## 实例测试验证
 ```js
     var add = function(a, b, c) {
@@ -62,7 +83,7 @@
     var memorize = function(func, hasher) {
         var memory = function(key) {
              // 执行记忆函数的时候, 先获得缓存
-            var cache = memoize.cache;
+            var cache = memory.cache;
              // 获得缓存地址
             var address = '' + (hasher ? hasher.apply(this, arguments) : key);
              // 如果缓存没有命中, 则需要调用函数执行
