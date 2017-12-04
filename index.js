@@ -9,6 +9,25 @@ const covArr = function (arr) {
     return sumArr(arr) / arr.length
 }
 
+/**
+ * 返回数字的千分位表达
+ * @param num
+ * @returns {string}
+ */
+const toThousands = function (num) {
+    var num = (num || 0).toString(), result = '';
+    // 多尝试想下while的用处
+    while (num.length > 3) {
+        // , + 后三位
+        result = ',' + num.slice(-3) + result;
+        // 取移除后三位的
+        num = num.slice(0, num.length - 3);
+    }
+    // 最后组合一起
+    if (num) { result = num + result; }
+    return result;
+}
+
 //cookie
 const setCookie = function (name, value, iDay) {
     var oDate = new Date()
