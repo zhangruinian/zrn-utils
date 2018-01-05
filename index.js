@@ -129,7 +129,7 @@ const jsonp = function (options = {}) {
     if (!options.url) {
         throw new Error('jsonp参数违规')
     }
-    let callbackName = 'jsonp_' + Date.now()
+    let callbackName = 'jsonp_' + parseInt((Math.random()*1000000000000))
     let head = document.getElementsByTagName('head')[0]
     let script = document.createElement('script')
     let params = ''
@@ -157,7 +157,7 @@ const jsonpPromise = (options = {}) => {
         throw new Error('jsonp参数违规')
     }
     return new Promise((resolve, reject) => {
-        let callbackName = 'jsonp_' + Date.now()
+        let callbackName = 'jsonp_' + parseInt((Math.random()*1000000000000))
         let head = document.getElementsByTagName('head')[0]
         let script = document.createElement('script')
         let params = ''
