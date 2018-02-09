@@ -15,7 +15,7 @@ function throttle(func, wait) {
         var now = +new Date()
         context = this
         args = arguments
-        // 因为一开始的数字必定大于wait 所以时间戳的会在一开始就执行一次
+        // 因为一开始的数字必定大于wait 所以时间戳的会在开始就执行一次
         // 缺点是事件停止触发后就不再执行
         if(now - previous > wait) {
             func.apply(context, args)

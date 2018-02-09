@@ -44,6 +44,7 @@ function shuffle(a) {
 ```js
     function shuffle(array) {
       var random = array.map(Math.random);
+      // 随机数组里面的数据减去另一个
       array.sort(function(a, b) {
         return random[a] - random[b];
       });

@@ -16,6 +16,8 @@
   "author": "zhangrn",
   "license": "MIT",
   "dependencies": {
+    "auto-import": "^0.1.4",
+    "autoimportplugin": "^1.0.0",
     "chai": "^4.1.2",
     "express": "^4.16.2"
   }
