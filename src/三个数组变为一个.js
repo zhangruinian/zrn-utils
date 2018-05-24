@@ -11,3 +11,6 @@ for (var i = 0; i < a1.length; i++) {
     })
 }
 console.log(temp)
+//[ { time: 1, key1: 'a', key2: 4 },
+//   { time: 2, key1: 'b', key2: 5 },
+//   { time: 3, key1: 'c', key2: 6 } ]

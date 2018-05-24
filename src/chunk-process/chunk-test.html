@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="div"></div>
+<script src="chunk.js"></script>
+<script>
+    var data = [12,123,1234,453,436,23,23,5,4123,45,346,5634,2234,345,342];
+    function printValue(item){
+        var div = document.getElementById("div");
+        div.innerHTML += item + "<br>";
+    }
+    chunk(data, printValue);
+</script>
+</body>
+</html>

@@ -11,4 +11,6 @@ function unique(array) {
     })
 }
 
+// 对象的属性可以基于 Hash 表实现，因此对属性进行访问的时间复杂度可以达到O(1);
+// filter 是数组迭代的方法，内部还是一个 for 循环，所以时间复杂度是 O(n)。
 console.log(unique(array)); // [{value: 1}, {value: 2}]
